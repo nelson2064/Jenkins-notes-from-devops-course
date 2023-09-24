@@ -1,0 +1,45 @@
+how to start with jenkins?    
+   
+visit jenkins website >>>>>>>>> https://www.jenkins.io/doc/book/installing/
+
+
+>>>>>>>>>>>for linux>>>>>>>>>>>>>>>>>>>
+
+step1  >Jenkins requires Java 11 or 17 since Jenkins 2.357 and LTS 2.361.1.
+
+step2       >sudo apt install openjdk-17-jre
+
+step3       >sudo apt install curl
+
+step4       >curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+  
+step5      >sudo apt-get update
+
+step6      >sudo apt-get install jenkins
+
+step7      >sudo systemctl status jenkins
+
+step 8     >open browser type 0.0.0.0:8080
+
+step 9     >enter the adminstrator password
+
+               
+               
+               go back to the terminal you will get the password
+Sep 15 11:08:43 nelson-HP-15-Notebook-PC jenkins[10764]: 90ada2bac89347f88a81e6>                 
+Sep 15 11:08:43 nelson-HP-15-Notebook-PC jenkins[10764]: This may also be found>
+Sep 15 11:08:43 nelson-HP-15-Notebook-PC jenkins[10764]: **********************>
+Sep 15 11:08:43 nelson-HP-15-Notebook-PC jenkins[10764]: **********************>
+Sep 15 11:08:43 nelson-HP-15-Notebook-PC jenkins[10764]: **********************>
+Sep 15 11:09:31 nelson-HP-15-Notebook-PC jenkins[10764]: 2023-09-15 15:09:31.49>
+Sep 15 11:09:31 nelson-HP-15-Notebook-PC jenkins[10764]: 2023-09-15 15:09:31.65>
+Sep 15 11:09:31 nelson-HP-15-Notebook-PC systemd[1]: Started Jenkins Continuous>
+
+
+Sep 15 11:08:43 nelson-HP-15-Notebook-PC jenkins[10764]: 90ada2bac89347f88a81e6>  >>>>>this is the password copy it and put it in your browser page   90ada2bac89347f88a81e6
+
+
